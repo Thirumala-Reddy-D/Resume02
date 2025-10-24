@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Web</title>
+    <style>
+        *{
+            margin:0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background-color:black;
+        }
+        nav{
+            background-color:rgba(0, 255, 255, 0.103);
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            font-size:3rem;
+            font-weight: 800;
+            color:white;
+            transition:0.5s;
+            margin:8px;
+        }
+        .logo:hover{
+            text-shadow:0 0 20px aqua;
+            color:aqua;
+        }
+        nav ul{
+            list-style:none;
+            display:flex;
+            margin:16px;
+            gap:40px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:1.2rem;
+            font-weight:400;
+        }
+        nav ul li a:hover{
+            color:aqua;
+            text-shadow:0 0 20px aqua;
+        }
+        main{
+            display:flex;
+            position:relative;
+        }
+        .image{
+            position:absolute;
+            height:80vh;
+            width:30vw;
+            top:10px;
+            left:30px;
+            border:3px solid aqua;
+            border-radius:10px;
+        }
+        img{
+            height:100%;
+            width:100%;
+            border-radius:10px;
+            padding:5px;
+        }
+        .name{
+            position:absolute;
+            background-color:aqua;
+            bottom:-20px;
+            border-radius:5px;
+            box-shadow: 0 0 10px aqua;
+            padding:6px;
+            width:60%;
+            text-align: center;
+            left:20%;
+        }
+        .content{
+            height:80vh;
+            width:64vw;
+            position:absolute;
+            right:30px;
+            color:white;
+            overflow:auto;
+            top:10px;
+            border:3px solid aqua;
+            scrollbar-width: none;
+            padding:15px;
+            text-align: justify;
+            border-radius:10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            DTR
+        </div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact info</a></li>
+            <li><a href="gallary.html">Gallary</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="image">
+            <img src="/elephantdance.jpeg" alt="profil_image">
+            <div class="name"><h2>Thirumala Reddy D</h2></div>
+        </div>
+        <div class="content">
+            <p><b>Hello</b>, my name is <b>Thirumala Reddy D</b>, and I’m a visionary, methodical builder with a deep passion for clarity, interdisciplinary synthesis, and practical impact. I specialize in transforming complex technical concepts into accessible, actionable insights — especially in the context of education, user-centric design, and workflow optimization. My work spans front-end development, system troubleshooting, educational visualization, and platform refinement, all driven by a commitment to democratizing opportunity and empowering learners. <br><br>
+            At the heart of my approach is a belief that technology should serve people — not the other way around. Whether I’m refining CSS and HTML for interactive student modules, recovering deleted software to restore productivity, or designing infographics that guide decision-making, I always begin with empathy and end with precision. I thrive on solving problems that matter, especially those that improve access, understanding, and engagement for students and educators. <br><br>
+            <b>Technical Strengths and Specializations</b> <br><br><br>
+            My technical toolkit is built on a foundation of persistence, clarity, and interdisciplinary thinking. I’m proficient in front-end development, particularly in crafting responsive, accessible interfaces using HTML, CSS, and UI/UX principles. I enjoy working on interactive effects — such as page-flip animations, button logic, and dynamic mapping — that make educational platforms more engaging and intuitive. <br><br>
+            I’m also highly resourceful when it comes to troubleshooting. Whether it’s recovering deleted software, optimizing system settings for speed, or refining workflows to eliminate friction, I approach every challenge with analytical rigor and a determination to find elegant, sustainable solutions. I’ve developed a strong ability to clarify and simplify technical documentation, making it student-friendly and dashboard-ready. <br><br>
+            My interests extend into educational data visualization, dashboard design, and infographics — especially for platforms that help students make informed decisions about colleges, courses, and career paths. I believe that well-designed visuals can bridge the gap between information and insight, and I’m constantly exploring new ways to present data in ways that are inclusive, multilingual, and easy to navigate. <br><br>
+            <b>Learning Style and Character</b> <br><br><br>
+            I learn best through structured, detail-oriented exploration. I’m curious about foundational knowledge and enjoy building up from first principles. Whether I’m studying a new technical concept or refining a design, I approach it with humility, honesty, and a growth mindset. I’m not afraid to admit when I don’t know something — in fact, I see it as an opportunity to learn, improve, and iterate. <br><br>
+            My character is defined by empathy, precision, and a deep commitment to impact. I care deeply about student empowerment and accessibility, and I strive to make every solution I build inclusive and user-friendly. I’m methodical in my thinking, but flexible in my execution. I value clarity over complexity, and I believe that the best solutions are those that are both elegant and practical. <br><br>
+            I’m also persistent. When a code solution doesn’t work the first time, I don’t give up — I refine, test, and try again. I’ve learned that iterative improvement is not just a technical process, but a mindset. It’s about staying engaged, staying curious, and staying committed to the outcome. <br>
+            <b>Personal Goals and Aspirations</b> <br><br><br>
+            In the short term, I’m focused on streamlining my workflow by integrating quick-access creative tools and efficient troubleshooting methods. I want to refine my web development projects, especially those involving advanced CSS/HTML effects and interactive mapping. I’m also working on organizing and presenting comprehensive lists of government colleges and course trends to help students make informed decisions. <br><br>
+            Another personal goal is to improve my confidence and fluency in public speaking and English communication. I believe that technical excellence should be matched by clear, confident expression — and I’m actively seeking growth in this area. Whether it’s presenting my work, explaining a concept, or engaging in collaborative discussions, I want to communicate with clarity, empathy, and impact. <br><br>
+            Long-term, I aspire to build platforms that empower students at scale. I want to create tools that simplify complex decisions, visualize educational pathways, and make learning more interactive and inclusive. I see myself contributing to projects that blend technology, design, and pedagogy — and I’m excited about the possibilities ahead. <br><br><br>
+            <b>Challenges and Growth</b> <br><br>
+            Like any journey, mine has had its share of challenges. One of the biggest has been recovering deleted software and optimizing PC workflows for productivity. It’s taught me to be resourceful, patient, and proactive. I’ve learned how to dig deep into system settings, troubleshoot issues, and restore functionality — often under pressure and with limited resources. <br><br>
+            Another challenge has been ensuring robust, user-friendly search and data handling in educational platforms. It’s a complex problem that requires both technical precision and user empathy. I’ve spent time refining search logic, improving data presentation, and making sure that students can find what they need quickly and easily. <br><br>
+            I’ve also faced the challenge of iteratively refining code solutions when initial attempts don’t work. It’s a test of persistence, but one that I’ve come to embrace. Each failed attempt is a step closer to success — and each iteration brings new insights, new skills, and new confidence. <br><br>
+            <b>Emotional Intelligence and Motivation</b> <br><br>
+            I’m focused, engaged, and motivated by the pursuit of technical excellence and student empowerment. I find satisfaction in building solutions that are actionable, inclusive, and impactful. I’m open about my personal fears — especially around communication — and I’m actively seeking growth in those areas. I believe that emotional intelligence is just as important as technical skill, and I strive to bring empathy, humility, and resilience to everything I do. <br>
+            I’m also deeply motivated by the idea of democratizing opportunity. I want to build tools that help students from all backgrounds access the information, guidance, and support they need to succeed. I believe that technology can be a powerful equalizer — and I’m committed to using my skills to make that vision a reality. <br><br><br>
+            <b>How I Work Best</b><br><br>
+            I thrive on structured, concise, and actionable guidance. I appreciate direct answers, technical clarity, and interdisciplinary discussions. Visual aids, step-by-step troubleshooting, and polished documentation resonate strongly with my learning and working style. I engage deeply when challenged to synthesize concepts or solve real-world problems, and I value encouragement in personal development. <br><br>
+            For platform design, I prefer solutions that are inclusive, lightweight, and multilingual. I respond best when information is organized for direct use in presentations or dashboards. I appreciate practical routines and motivational advice for personal growth — especially in communication skills. <br><br>
+            I also value workflow efficiency and quick access to creative tools. Whether it’s a shortcut that saves time, a design tweak that improves usability, or a troubleshooting method that restores functionality, I’m always looking for ways to work smarter and deliver more impact. <br><br><br>
+            <b>Final Thoughts</b><br><br>
+            In summary, I’m Thirumala — a builder, a learner, and a problem-solver. I bring clarity to complexity, empathy to design, and persistence to every challenge. I’m passionate about education, technology, and user-centric solutions. I believe in the power of iteration, the importance of accessibility, and the value of structured growth. <br><br>
+            If you’re looking for someone who can synthesize technical and interdisciplinary content, troubleshoot with precision, and design with empathy, I’d be honored to collaborate. I’m excited about the future, committed to the present, and always ready to learn. <br></p>
+        </div>
+    </main>
+</body>
+</html>
