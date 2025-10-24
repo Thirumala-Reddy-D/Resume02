@@ -1,0 +1,101 @@
+*{
+            margin:0;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background-color:black;
+        }
+        nav{
+            background-color:rgba(0, 255, 255, 0.103);
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            font-size:3rem;
+            font-weight: 800;
+            color:white;
+            transition:0.5s;
+            margin:8px;
+        }
+        .logo:hover{
+            text-shadow:0 0 20px aqua;
+            color:aqua;
+        }
+        nav ul{
+            list-style:none;
+            display:flex;
+            margin:16px;
+            gap:40px;
+        }
+        nav ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:1.2rem;
+            font-weight:400;
+        }
+        nav ul li a:hover{
+            color:aqua;
+            text-shadow:0 0 20px aqua;
+            font-size:1.3rem;
+        }
+        main{
+            width:99%;
+            margin:5px auto;
+            height:85vh;
+            border:1px solid gray;
+            color:white;
+            border-radius:5px;
+            scrollbar-width: none;
+        }
+        a{
+            text-decoration: none;
+            color:white;
+        }
+        a:hover{
+            color:black;
+        }
+        .heading{
+            border-bottom:2px solid aqua;
+            margin:50px 5%;
+            padding:10px;
+        }
+        .contactlinks{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            margin:3% 6%;
+            gap:10px;
+        }
+        .contact{
+            border:1px solid gray;
+            border-radius:5px;
+        }
+        .contact:hover{
+            background-color:aqua;
+            color:black;
+        }
+        .ad{
+            border-bottom:1px solid gray;
+            margin:5%;
+        }
+        .adc{
+            margin:5%;
+            padding:5px;
+        }
+        .c5{
+            grid-column: 1/5;
+        }
+        .c5 p,.c6 p,.c7 p{
+            margin:10px 5%;
+        }
+        .c5 h3,.c6 h3,.c7 h3{
+            margin:20px 5%;
+        }
+        .c6{
+            grid-column:1/3;
+        }
+        .c7{
+            grid-column:3/5;
+        }
